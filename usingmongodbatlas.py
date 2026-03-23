@@ -10,4 +10,5 @@ data = [
     {"user":"Amit",  "title":"Data Science", "score":60},
     {"user":"Krish",  "title":"Data Science", "score":95}] 
 # collection.insert_many(data)
-collection.delete_one({'user':'Krish'})
+# collection.delete_many({'user':'Krish'})
+collection.delete_many({'user':'Krish'})
