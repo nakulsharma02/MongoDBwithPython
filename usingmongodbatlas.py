@@ -9,4 +9,5 @@ data = [
     {"user":"Krish",  "title":"JavaScript", "score":75}, 
     {"user":"Amit",  "title":"Data Science", "score":60},
     {"user":"Krish",  "title":"Data Science", "score":95}] 
-collection.insert_many(data)
+# collection.insert_many(data)
+collection.delete_one({'user':'Krish'})
